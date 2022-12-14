@@ -24,8 +24,12 @@
     margin-bottom: 50px;
 }
 #btns{
-    translate: 550px 200px;
+    translate: 0px 200px;
     background-color:orangered;
-        
+    width:100%;
+    height: 30px;
+    border:
+    
+
 }
 
