@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", function(){
 //create a add me button
 const btn =document.createElement("button");
 button.id ="btns"
+button.innerHTML ="ADD BOOK";
+btn.appendChild(button);
 
 
 
