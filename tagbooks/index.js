@@ -29,10 +29,12 @@ document.addEventListener("DOMContentLoaded", function(){
     form.appendChild(authorInput);
     document.body.appendChild(form);
 //create a add me button
+const but =document.querySelector("#forms");
 const btn =document.createElement("button");
-button.id ="btns"
-button.innerHTML ="ADD BOOK";
-btn.appendChild(button);
+btn.id ="btns"
+btn.innerHTML ="ADD BOOK";
+but.appendChild(button);
+
 
 
 
