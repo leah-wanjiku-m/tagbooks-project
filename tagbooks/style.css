@@ -6,3 +6,11 @@ body{
     margin:0;
     padding:0;
 }
+#navbar{
+    background-color: aliceblue;
+    text-align: center;
+    color: red;
+}
+.tag{
+    color:blueviolet;
+}
