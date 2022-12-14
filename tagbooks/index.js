@@ -33,7 +33,7 @@ const but =document.querySelector("#forms");
 const btn =document.createElement("button");
 btn.id ="btns"
 btn.innerHTML ="ADD BOOK";
-but.appendChild(button);
+but.appendChild(btn);
 
 
 
