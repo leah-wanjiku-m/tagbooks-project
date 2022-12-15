@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-    //getbooks();
+    getbooks();
 });
 // function getbooks(){
 //     fetch("https://www.googleapis.com/books/v1/volumes?q=javascript&key=AIzaSyAxz_bHZoMfBLyLyEk7PEL9Ygeg3Kw2IyM")
