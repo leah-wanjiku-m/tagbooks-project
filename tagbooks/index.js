@@ -36,7 +36,8 @@ but.appendChild(btn);
 //add an event listener
 btn.addEventListener("click",vitabu);
 function vitabu(){
- const =document.querySelector("#formInput").value;  
+ const bookTitle = document.querySelector("#formInput")
+ bookTitle.innerHTML = vitabu.title;  
 }
 
 
