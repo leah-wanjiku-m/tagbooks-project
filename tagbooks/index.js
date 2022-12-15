@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function(){
     authorInput.type="text";
     authorInput.name = "author";
     authorInput.placeholder="enter author";
-    authorInput.id="formInput";
+    authorInput.id="input";
     form.appendChild(authorInput);
     document.body.appendChild(form);
 //create a add me button
@@ -36,7 +36,7 @@ but.appendChild(btn);
 //add an event listener
 btn.addEventListener("click",vitabu);
 function vitabu(){
-    
+ const =document.querySelector("#formInput").value;  
 }
 
 
