@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(){
     getbooks();
 });
-// function getbooks(){
-//     fetch("https://www.googleapis.com/books/v1/volumes?q=javascript&key=AIzaSyAxz_bHZoMfBLyLyEk7PEL9Ygeg3Kw2IyM")
-//     .then((response)=>response.json)
-//     .then(vitabu);
-// }
+ function getbooks(){fetch("https://www.googleapis.com/books/v1/volumes?q=javascript&key=AIzaSyAxz_bHZoMfBLyLyEk7PEL9Ygeg3Kw2IyM")
+     .then((response)=>response.json)
+     .then(vitabu);
+     }
 // function vitabu(books){
 //     books.forEach(inputdetails);
 // }
