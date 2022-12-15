@@ -33,6 +33,11 @@ const btn =document.createElement("button");
 btn.id ="btns"
 btn.innerHTML ="ADD BOOK";
 but.appendChild(btn);
+//add an event listener
+btn.addEventListener("click",vitabu);
+function vitabu(){
+    
+}
 
 
 
