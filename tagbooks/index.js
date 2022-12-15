@@ -27,6 +27,9 @@ document.addEventListener("DOMContentLoaded", function(){
     authorInput.id="input";
     form.appendChild(authorInput);
     document.body.appendChild(form);
+    form.addEventListener("submit",(e) =>{
+        e.preventDefault();
+    });
 //create a add me button
 const but =document.querySelector("#forms");
 const btn =document.createElement("button");
