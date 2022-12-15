@@ -38,11 +38,12 @@ btn.id ="btns"
 btn.innerHTML ="ADD BOOK";
 but.appendChild(btn);
 //add an event listener
-btn.addEventListener("click",vitabu);
-function vitabu(){
- const bookTitle = document.querySelector("#formInput")
- bookTitle.innerHTML = vitabu.title;  
-}
+//btn.addEventListener("click",vitabu);
+//function vitabu(){
+ //const bookTitle = document.querySelector("#formInput")
+ //bookTitle.innerHTML = vitabu.title;  
+//}
+c
 
 
 
