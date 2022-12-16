@@ -7,20 +7,33 @@
     <title>TAGBOOKS</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<!--navigation bar details-->
-<div id="navbar">
-    <h1>TAG<span class="tag">BOOKS</span>
-    </h1>
-</div>
-<!--menubar details-->
-<div id="menubar" class="sidebar">
-    <div id="details" class="dets">
-    <img id="cover" src="" alt="bookcover">
-    <h3 id ="title"></h3>
-    <p id="author" ></p>
-</div>
 <body>
-    <script src="/index.js"></script>
+        <!--navigation bar details-->
+    <div id="navbar">
+        <h1>TAG<span class="tag">BOOKS</span>
+        </h1>
+    </div>
+    <!--menubar details-->
+    <div id="menubar" class="sidebar">
+        <div id="details" class="dets">
+        <h3 id ="title"></h3>
+        <p id="author" ></p>
+    </div>
+    <div id="addbook">
+        <h3 class="head">add book</h3>
+        <form id="bookform">
+        <div class="inputfield">
+         <input id="addFavourites" type="text"  placeholder="entertitle" />
+         <input type="submit" class="btn" value="submit"/>
+
+    </div>
+    </form>
+    <div id="bookcontainer">
+
+    </div>
+    </div>
+    </div>
+    <script src="./index.js"></script>
     
 </body>
 </html>
