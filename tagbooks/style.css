@@ -10,31 +10,51 @@
 .tag{
     color:blueviolet;
 }
-#menubar{
-    position: fixed;
-    
+ #menubar{
+    position: absolute;
 
     width: 200px;
     height: 100%;
     background-color: aliceblue;
 
-}
-#menubar li{
+} 
+ #menubar li{
     background-color:black;
     display: block;
     padding: 16px;   
-}
-#addFavourites{
+ } 
+ #addFavourites{ 
     display: block;
+    text-align: center;
     margin: 10px 0;
-    width: 100%;
+    width: 40%;
     height: 30px;
+    margin-right: 400px;
+    margin-left: 400px;
     
+} 
+  .container{
+    position: absolute;
+    text-align: center;
+    margin-block-end: 1000px;
+    margin: auto;
+    
+} 
+.btn{
+    position: absolute;
+    text-align: center;
+    margin-right: 380px;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: blueviolet;
 }
 .head{
     text-align: center;
-    
+    color: blue;
+    margin-left:150px ;
+
 }
+
 
 /* #formInput{
     display: block;
