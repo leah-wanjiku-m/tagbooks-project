@@ -31,7 +31,7 @@ function appendElement(element,id="dec"){
         // image element
         const bookImage=document.createElement("img");
         bookImage.src = (thumbnail);
-
+       // create book details
 
         bookind.innerHTML=(kind);
          const bookId= document.createElement("p");
@@ -46,28 +46,30 @@ function appendElement(element,id="dec"){
         li.append(bookImage);
         return li
      }
+     const form = document.getElementById('bookform');
+const input = document.getElementById('addFavourites');
+const list = document.getElementById('list');
+
+form.addEventListener('submit', event => {
+  event.preventDefault(); // prevent the page from reloading
+
+  const value = addFavourites.value;
+  if (!value) return; // do nothing if the input is empty
+
+  const li = document.createElement('li');
+  li.textContent = value;
+
+  const button = document.createElement('button');
+  button.textContent = 'x';
+  button.addEventListener('click', () => li.remove());
+
+  li.appendChild(button);
+  list.appendChild(li);
+  addFavourites.value = ''; // clear the input field
+});
      
-     //creating  a form and adding an event listener
-     function event(){
-      let form =document.querySelector('bookform');
-      form.addEventListener("submit", (e) =>{
-        bookAdd(e.target.addFavourites.value);
-        form.reset()
-      })
-     }
-     function bookAdd(){
-      let p=document.createElement("p");
-      let btn=document.createElement("button");
-      btn.addEventListener("click", handleDelete);
-      btn.innerHTML='remove';
-      p.innerHTML= ` ${ addFavourites} `
-      p.appendChild(btn);
-      console.log(p);
-      document.querySelector('bookcontainer').appendChild(p);
-     }
-     function handleDelete(e){
-      e.target.parentNode.remove()
-     }
+    
+     
 
 
     

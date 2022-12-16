@@ -19,9 +19,11 @@
 
 } 
  #menubar li{
-    background-color:black;
+    background-color:white;
     display: block;
-    padding: 16px;   
+    padding: 2px;
+    margin-left: 400px;
+    margin-bottom: 2px;   
  } 
  #addFavourites{ 
     display: block;
